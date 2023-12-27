@@ -138,9 +138,11 @@ body {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     justify-content: space-between;
+    padding: 15px;
   }
   .header {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    padding: 20px;
   }
 }
