@@ -6,10 +6,18 @@
 
 a {
   text-decoration: none;
+  color: #000;
+}
+
+a:hover,
+a:focus {
+  outline: 2px solid orange;
+  color: orange
 }
 
 li {
   list-style-type: none;
+  margin: 10px 0;
 }
 
 body {
@@ -22,7 +30,7 @@ body {
 .header {
   width: 90%;
   margin: 0 auto;
-  padding: 30px;
+  padding: 20px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -32,14 +40,19 @@ body {
 }
 
 .photo {
-  width: 100px;
-  border: 1px solid rgb(168, 194, 73);
+  width: 150px;
+  border: 1px solid orange;
   border-radius: 5%;
   box-shadow: 0 0 10px yellow;
 }
 
 .heading {
   font-size: 40px;
+  text-shadow: -1px -1px white;
+}
+
+.section-heading {
+  margin: 15px;
 }
 
 .container {
@@ -49,6 +62,25 @@ body {
   background: linear-gradient(90deg, #fff, #b2b2b2);
 }
 
+.contacts {
+  background-color: rgb(243, 226, 148);
+  padding: 10px 0 15px 0;
+  margin: 0;
+  border-radius: 16px;
+}
+
+.contacts__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.contacts__icon{
+  width: 30px;
+  height: 30px;
+  transform: translateY(8px);
+}
+
 .skills__list-item {
   margin: 10px 0;
 }
@@ -56,4 +88,17 @@ body {
   width: 22px;
   transform: translateY(4px);
   margin-right: 5px;
+}
+
+.footer {
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(135deg, #666, #fff);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  text-shadow: -.5px -.5px white;
 }
