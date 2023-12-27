@@ -102,3 +102,26 @@ body {
   border-top-right-radius: 30px;
   text-shadow: -.5px -.5px white;
 }
+
+@media (max-width: 620px) {
+  .photo {
+    width: 110px;
+    margin-right: 10px;
+    }
+  
+  .heading {
+    font-size: 30px;
+  }
+  .container {padding: 10px;}
+  .contacts__list-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .contacts__icon {width: 22px;
+  height: 22px;
+margin-bottom: 5px;}
+.header, .footer {width: 95%;}
+.container {width: 85%;}
+}
